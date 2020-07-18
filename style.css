@@ -1,0 +1,176 @@
+/*Wireframe inspired by Redbubbles website*/
+
+h1 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 100px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 8px;
+    text-align: center;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+}
+
+/*Container holding sign up, sign in, sell your art*/
+.sign_top_cont { 
+	position: relative;
+	width: auto;
+	height: 26px;
+	margin-top: 0px;
+	padding: 8px 16px 8px 16px;
+	background-color: rgb(242, 242, 246);
+
+}
+
+.sign_top_cont ul li {
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	text-align: right;
+	display: inline;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+/*-----Contianer holding search bar and nav-----*/
+.search_cont {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	padding: 32px 16px 32px 16px;
+	background-color: white;
+}
+
+.logo {
+	margin-left: 20px;
+	width: 180px;
+	height: 36px;
+	margin-top: -20px;
+	background-color: #bbbcbd;
+}
+
+.search_bar {
+	align-items: center;
+	display: flex;
+	width: 977px;
+	height: 56px;
+	border-radius: 5px;
+	margin-left: 255px;
+	margin-top: -50px;
+	background-color: rgb(242, 242, 246);
+}
+
+.search_bar p {
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.heart_logo {
+	width: 48px;
+	height: 48px;
+	margin-left: 1300px;
+	margin-top: -50px;
+	border-radius: 30px;
+	background-color: rgb(242, 242, 246);
+}
+
+.cart_logo {
+	width: 48px;
+	height: 48px;
+	margin-left: 1355px;
+	margin-top: -47px;
+	border-radius: 30px;
+	background-color: rgb(242, 242, 246);
+}
+
+/*-------Navigation-----------*/
+ul{
+	padding-top: 15px;
+}
+
+nav ul li {
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	text-align: center;
+	display: inline;
+	margin-left: -50px;
+	margin-top: 30px;
+	padding-right: 78px;
+	padding-left: 32px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+/*horizontal line under nav bar*/
+hr {
+	margin-top: 0px;
+	height: 2px;
+	width: auto;
+	border: none;
+	background-color: #f2f2f6;
+}
+
+/*container in home page holds image*/
+.img1 {
+	width: 1410px;
+	height: 250px;
+	padding-top: 105px;
+	padding-bottom: 105px;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: #bbbcbd;
+	border-radius: 5px;
+}
+
+.t1 h1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+}
+
+.box1 {
+	width: 360px;
+	height: 400px;
+	margin-top: 15px;
+	margin-left: 130px;
+	background-color: #e0dede;
+	border-radius: 5px;
+	align-items: stretch;
+}
+
+.box2 {
+	width: 360px;
+	height: 400px;
+	margin-top: -400px;
+	margin-left: 528px;
+	background-color: #e0dede;
+	border-radius: 5px;
+}
+
+.box3 {
+	width: 360px;
+	height: 400px;
+	margin-top: -400px;
+	margin-left: 925px;
+	background-color: #e0dede;
+	border-radius: 5px;
+}
+
+footer {
+	width: auto;
+	height: 300px;
+	margin-top: 60px;
+	background-color: #e0dede;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 50px;
+}
